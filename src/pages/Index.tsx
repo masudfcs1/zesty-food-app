@@ -11,6 +11,7 @@ import FooterSection from "@/components/FooterSection";
 import ScrollProgress from "@/components/ScrollProgress";
 import MarqueeStrip from "@/components/MarqueeStrip";
 import SectionDivider from "@/components/SectionDivider";
+import ProductSpotlight from "@/components/ProductSpotlight";
 
 const Index = () => {
   return (
@@ -49,6 +50,8 @@ const Index = () => {
         speed={20}
         reverse
       />
+
+      <ProductSpotlight />
 
       <div id="ingredients">
         <IngredientsSection />
